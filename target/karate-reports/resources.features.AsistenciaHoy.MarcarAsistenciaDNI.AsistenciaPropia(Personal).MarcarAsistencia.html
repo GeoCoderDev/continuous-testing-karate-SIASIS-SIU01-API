@@ -1,0 +1,4832 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"b52efb0a-d05b-41d4-947f-03aa6aafcead",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>resources.features.AsistenciaHoy.MarcarAsistenciaDNI.AsistenciaPropia(Personal).MarcarAsistencia</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">5</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div>desa</div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-07-08 12:26:35 a. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1.1:23]"><span>[1.1:23]</span> <span>Marcar mi asistencia propia con el rol de Directivo</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.2:24]"><span>[1.2:24]</span> <span>Marcar mi asistencia propia con el rol de Auxiliar</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.3:25]"><span>[1.3:25]</span> <span>Marcar mi asistencia propia con el rol de TutorSecundaria</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.4:26]"><span>[1.4:26]</span> <span>Marcar mi asistencia propia con el rol de ProfesorPrimaria</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[1.5:27]"><span>[1.5:27]</span> <span>Marcar mi asistencia propia con el rol de PersonalAdmin</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">resources/features/AsistenciaHoy/MarcarAsistenciaDNI/AsistenciaPropia(Personal)/MarcarAsistencia.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Marcar mi Asitencia Propia con Rol</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:23]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">ASISTENCIAPROPIA</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:23]</span>
+                <span class="scenario-name">Marcar mi asistencia propia con el rol de Directivo</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3799</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.1:23]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.1:23]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;classpath:resources/features/login/Directivo.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:resources/features/SetCookies/GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2774</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">2763</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2293</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="1.9.0.call">
+      <div class="step-container" id="1.9.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.login.Directivo</div>
+      </div>
+      <div class="time-cell passed">2282</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/directivo&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;director.asuncion8&quot;, &quot;Contraseña&quot;: &quot;15430124&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">50</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2225</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9.0.call.0.7.0.call.0.10">00:26:24.324 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/directivo
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 64
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;director.asuncion8&quot;,
+  &quot;Contraseña&quot;: &quot;15430124&quot;
+}
+
+
+00:26:26.301 response time in milliseconds: 1974
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 509
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 08 Jul 2025 05:26:16 GMT
+1 &lt; Etag: W/&quot;1fd-idK92rYYqwb2MfO4lIvnfX9eqEs&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::hxpww-1751952375178-1d7a4c46d556
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Cullanco Espilco&quot;,
+    &quot;Nombres&quot;: &quot;Elena Serafina&quot;,
+    &quot;Rol&quot;: &quot;D&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlM1IiwiUm9sIjoiRCIsImlhdCI6MTc1MTk1MjM3NiwiZXhwIjoxNzUxOTcwMzc2fQ.aain9_YFxGGg7M8yRtXCjDJjf3U9cgAN6O7_xxmX9VI&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu&quot;,
+    &quot;Genero&quot;: &quot;F&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9.0.call.0.7.0.call.0.18">00:26:26.308 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlM1IiwiUm9sIjoiRCIsImlhdCI6MTc1MTk1MjM3NiwiZXhwIjoxNzUxOTcwMzc2fQ.aain9_YFxGGg7M8yRtXCjDJjf3U9cgAN6O7_xxmX9VI 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call.0.7.0.call">
+    <div class="step-container" id="1.9.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9.0.call.0.7.0.call.0.19">00:26:26.308 [print] D 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.9.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">466</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.9.0.call.0.20">00:26:26.312 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 447
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Elena Serafina&quot;,
+  &quot;Apellidos&quot;: &quot;Cullanco Espilco&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlM1IiwiUm9sIjoiRCIsImlhdCI6MTc1MTk1MjM3NiwiZXhwIjoxNzUxOTcwMzc2fQ.aain9_YFxGGg7M8yRtXCjDJjf3U9cgAN6O7_xxmX9VI&quot;,
+  &quot;Genero&quot;: &quot;F&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu&quot;,
+  &quot;Rol&quot;: &quot;D&quot;
+}
+
+
+00:26:26.776 response time in milliseconds: 461
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Tue, 08 Jul 2025 05:26:17 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Elena%20Serafina; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Cullanco%20Espilco; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=D; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlM1IiwiUm9sIjoiRCIsImlhdCI6MTc1MTk1MjM3NiwiZXhwIjoxNzUxOTcwMzc2fQ.aain9_YFxGGg7M8yRtXCjDJjf3U9cgAN6O7_xxmX9VI; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=F; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::bdvft-1751952377116-23857de72908
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.9.0.call">
+    <div class="step-container" id="1.9.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def fechaHoraEsperadaISO = getAdjustedTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">115</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/asistencia-hoy/marcar&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.12">{
+    &quot;ModoRegistro&quot;: &quot;E&quot;,
+    &quot;FechaHoraEsperadaISO&quot;: &quot;#(fechaHoraEsperadaISO)&quot;,
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">906</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.19">00:26:26.899 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/asistencia-hoy/marcar
+1 &gt; Cookie: Apellidos=Cullanco%20Espilco; Google_Drive_Foto_ID=1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu; Nombres=Elena%20Serafina; Genero=F; Rol=D; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlM1IiwiUm9sIjoiRCIsImlhdCI6MTc1MTk1MjM3NiwiZXhwIjoxNzUxOTcwMzc2fQ.aain9_YFxGGg7M8yRtXCjDJjf3U9cgAN6O7_xxmX9VI
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;ModoRegistro&quot;: &quot;E&quot;,
+  &quot;FechaHoraEsperadaISO&quot;: &quot;2025-07-08T04:26:26.786Z&quot;
+}
+
+
+00:26:27.799 response time in milliseconds: 898
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Type: application/json
+1 &lt; Date: Tue, 08 Jul 2025 05:26:18 GMT
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/asistencia-hoy/marcar
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::lpfpj-1751952377707-e0ec0a59af9b
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;La asistencia ya había sido registrada anteriormente&quot;,
+  &quot;data&quot;: {
+    &quot;timestamp&quot;: 1751952377865,
+    &quot;desfaseSegundos&quot;: 3591,
+    &quot;esNuevoRegistro&quot;: false,
+    &quot;esRegistroPropio&quot;: false,
+    &quot;actorRegistrado&quot;: &quot;D&quot;,
+    &quot;tipoAsistencia&quot;: &quot;personal&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:24]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">ASISTENCIAPROPIA</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:24]</span>
+                <span class="scenario-name">Marcar mi asistencia propia con el rol de Auxiliar</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2212</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.2:24]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.2:24]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;classpath:resources/features/login/CasoNoTutor.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:resources/features/SetCookies/GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1585</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1578</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1142</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="2.9.0.call">
+      <div class="step-container" id="2.9.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.login.CasoNoTutor</div>
+      </div>
+      <div class="time-cell passed">1133</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/profesor-tutor-secundaria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;david_apolinario_1537&quot;, &quot;Contraseña&quot;: &quot;15371028&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1128</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.9.0.call.0.7.0.call.0.10">00:26:27.842 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/profesor-tutor-secundaria
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 67
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;david_apolinario_1537&quot;,
+  &quot;Contraseña&quot;: &quot;15371028&quot;
+}
+
+
+00:26:28.968 response time in milliseconds: 1125
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 523
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 08 Jul 2025 05:26:19 GMT
+1 &lt; Etag: W/&quot;20b-GFu/rL3KtDZKOdMHR4vHEgo2nj8&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::f8l7v-1751952378648-458c71328e8d
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Apolinario Quispe&quot;,
+    &quot;Nombres&quot;: &quot;David Julian&quot;,
+    &quot;Rol&quot;: &quot;PS&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMiIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMSIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTUyMzc5LCJleHAiOjE3NTE5NzAzNzl9.bnmqLyCe-uS72tISEJU1eIF-6OyFDH7SyyfbZ1BlI00&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg&quot;,
+    &quot;Genero&quot;: &quot;M&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.9.0.call.0.7.0.call.0.18">00:26:28.971 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMiIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMSIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTUyMzc5LCJleHAiOjE3NTE5NzAzNzl9.bnmqLyCe-uS72tISEJU1eIF-6OyFDH7SyyfbZ1BlI00 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call.0.7.0.call">
+    <div class="step-container" id="2.9.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.9.0.call.0.7.0.call.0.19">00:26:28.973 [print] PS 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.9.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">434</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.9.0.call.0.20">00:26:28.977 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 461
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;David Julian&quot;,
+  &quot;Apellidos&quot;: &quot;Apolinario Quispe&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMiIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMSIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTUyMzc5LCJleHAiOjE3NTE5NzAzNzl9.bnmqLyCe-uS72tISEJU1eIF-6OyFDH7SyyfbZ1BlI00&quot;,
+  &quot;Genero&quot;: &quot;M&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg&quot;,
+  &quot;Rol&quot;: &quot;PS&quot;
+}
+
+
+00:26:29.407 response time in milliseconds: 429
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Tue, 08 Jul 2025 05:26:19 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=David%20Julian; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Apolinario%20Quispe; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=PS; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMiIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMSIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTUyMzc5LCJleHAiOjE3NTE5NzAzNzl9.bnmqLyCe-uS72tISEJU1eIF-6OyFDH7SyyfbZ1BlI00; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=M; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::zh6qw-1751952379767-54f843771996
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.9.0.call">
+    <div class="step-container" id="2.9.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def fechaHoraEsperadaISO = getAdjustedTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/asistencia-hoy/marcar&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.12">{
+    &quot;ModoRegistro&quot;: &quot;E&quot;,
+    &quot;FechaHoraEsperadaISO&quot;: &quot;#(fechaHoraEsperadaISO)&quot;,
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">623</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.19">00:26:29.414 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/asistencia-hoy/marcar
+1 &gt; Cookie: Apellidos=Apolinario%20Quispe; Google_Drive_Foto_ID=1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg; Nombres=David%20Julian; Genero=M; Rol=PS; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMiIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMSIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTUyMzc5LCJleHAiOjE3NTE5NzAzNzl9.bnmqLyCe-uS72tISEJU1eIF-6OyFDH7SyyfbZ1BlI00
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;ModoRegistro&quot;: &quot;E&quot;,
+  &quot;FechaHoraEsperadaISO&quot;: &quot;2025-07-08T04:26:29.410Z&quot;
+}
+
+
+00:26:30.035 response time in milliseconds: 618
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Type: application/json
+1 &lt; Date: Tue, 08 Jul 2025 05:26:20 GMT
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/asistencia-hoy/marcar
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::knbp6-1751952380203-6f23826105f2
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;La asistencia ya había sido registrada anteriormente&quot;,
+  &quot;data&quot;: {
+    &quot;timestamp&quot;: 1751952380342,
+    &quot;desfaseSegundos&quot;: 3590,
+    &quot;esNuevoRegistro&quot;: false,
+    &quot;esRegistroPropio&quot;: false,
+    &quot;actorRegistrado&quot;: &quot;PS&quot;,
+    &quot;tipoAsistencia&quot;: &quot;personal&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:25]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">ASISTENCIAPROPIA</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:25]</span>
+                <span class="scenario-name">Marcar mi asistencia propia con el rol de TutorSecundaria</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1747</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.3:25]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.3:25]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;classpath:resources/features/login/CasoTutorSecundaria.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:resources/features/SetCookies/GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1148</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="3.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1138</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">710</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="3.9.0.call">
+      <div class="step-container" id="3.9.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.login.CasoTutorSecundaria</div>
+      </div>
+      <div class="time-cell passed">700</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/profesor-tutor-secundaria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;daniel_sanchez_1542&quot;, &quot;Contraseña&quot;: &quot;15420745&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">696</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.9.0.call.0.7.0.call.0.10">00:26:30.061 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/profesor-tutor-secundaria
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 65
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;daniel_sanchez_1542&quot;,
+  &quot;Contraseña&quot;: &quot;15420745&quot;
+}
+
+
+00:26:30.755 response time in milliseconds: 691
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 519
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 08 Jul 2025 05:26:21 GMT
+1 &lt; Etag: W/&quot;207-U2bt0AdkqLDPI1ix8XVD6axz2JI&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::dscj4-1751952380852-3c565c5a6684
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Sanchez Gonzales&quot;,
+    &quot;Nombres&quot;: &quot;Daniel Enrique&quot;,
+    &quot;Rol&quot;: &quot;T&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzMiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzEiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTUyMzgxLCJleHAiOjE3NTE5NzAzODF9.nABdOPDbRT4L63PZba78QgVRMHE5GnlO2yO6SPnhy38&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b&quot;,
+    &quot;Genero&quot;: &quot;M&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.9.0.call.0.7.0.call.0.18">00:26:30.759 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzMiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzEiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTUyMzgxLCJleHAiOjE3NTE5NzAzODF9.nABdOPDbRT4L63PZba78QgVRMHE5GnlO2yO6SPnhy38 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call.0.7.0.call">
+    <div class="step-container" id="3.9.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.9.0.call.0.7.0.call.0.19">00:26:30.760 [print] T 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.9.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">426</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.9.0.call.0.20">00:26:30.764 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 457
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Daniel Enrique&quot;,
+  &quot;Apellidos&quot;: &quot;Sanchez Gonzales&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzMiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzEiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTUyMzgxLCJleHAiOjE3NTE5NzAzODF9.nABdOPDbRT4L63PZba78QgVRMHE5GnlO2yO6SPnhy38&quot;,
+  &quot;Genero&quot;: &quot;M&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b&quot;,
+  &quot;Rol&quot;: &quot;T&quot;
+}
+
+
+00:26:31.188 response time in milliseconds: 422
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Tue, 08 Jul 2025 05:26:21 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Daniel%20Enrique; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Sanchez%20Gonzales; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=T; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzMiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzEiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTUyMzgxLCJleHAiOjE3NTE5NzAzODF9.nABdOPDbRT4L63PZba78QgVRMHE5GnlO2yO6SPnhy38; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=M; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::bzqkg-1751952381550-e037805233d0
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.9.0.call">
+    <div class="step-container" id="3.9.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def fechaHoraEsperadaISO = getAdjustedTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/asistencia-hoy/marcar&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.12">{
+    &quot;ModoRegistro&quot;: &quot;E&quot;,
+    &quot;FechaHoraEsperadaISO&quot;: &quot;#(fechaHoraEsperadaISO)&quot;,
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">598</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.19">00:26:31.193 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/asistencia-hoy/marcar
+1 &gt; Cookie: Apellidos=Sanchez%20Gonzales; Google_Drive_Foto_ID=14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b; Nombres=Daniel%20Enrique; Genero=M; Rol=T; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzMiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzEiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTUyMzgxLCJleHAiOjE3NTE5NzAzODF9.nABdOPDbRT4L63PZba78QgVRMHE5GnlO2yO6SPnhy38
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;ModoRegistro&quot;: &quot;E&quot;,
+  &quot;FechaHoraEsperadaISO&quot;: &quot;2025-07-08T04:26:31.191Z&quot;
+}
+
+
+00:26:31.788 response time in milliseconds: 594
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Type: application/json
+1 &lt; Date: Tue, 08 Jul 2025 05:26:22 GMT
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/asistencia-hoy/marcar
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::f8l7v-1751952381985-8667fc456378
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;La asistencia ya había sido registrada anteriormente&quot;,
+  &quot;data&quot;: {
+    &quot;timestamp&quot;: 1751952382103,
+    &quot;desfaseSegundos&quot;: 3590,
+    &quot;esNuevoRegistro&quot;: false,
+    &quot;esRegistroPropio&quot;: false,
+    &quot;actorRegistrado&quot;: &quot;PS&quot;,
+    &quot;tipoAsistencia&quot;: &quot;personal&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">ASISTENCIAPROPIA</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:26]</span>
+                <span class="scenario-name">Marcar mi asistencia propia con el rol de ProfesorPrimaria</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1650</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.4:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.4:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;classpath:resources/features/login/ProfesorPrimaria.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:resources/features/SetCookies/GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1017</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="4.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1002</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call">
+    <div class="step-container" id="4.9.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call">
+    <div class="step-container" id="4.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">571</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="4.9.0.call">
+      <div class="step-container" id="4.9.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.login.ProfesorPrimaria</div>
+      </div>
+      <div class="time-cell passed">559</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/profesor-primaria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;marisol_godoy_1537&quot;, &quot;Contraseña&quot;: &quot;15378317&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">546</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.9.0.call.0.7.0.call.0.10">00:26:31.852 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/profesor-primaria
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 64
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;marisol_godoy_1537&quot;,
+  &quot;Contraseña&quot;: &quot;15378317&quot;
+}
+
+
+00:26:32.393 response time in milliseconds: 537
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 522
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 08 Jul 2025 05:26:22 GMT
+1 &lt; Etag: W/&quot;20a-XLBa02sAp/UNj1Z0M6wVrN5euQE&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::9l8f7-1751952382641-98ed9e45dae1
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Godoy Villarubia&quot;,
+    &quot;Nombres&quot;: &quot;Marisol Ceferina&quot;,
+    &quot;Rol&quot;: &quot;PP&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTUyMzgyLCJleHAiOjE3NTE5NzAzODJ9.jRFHKNfiatRelaz24PL-a8g8ccV_YNerDFMX_qLWJEs&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1p8FC3py693IjnMTa4uINq5lVSb9P3LBc&quot;,
+    &quot;Genero&quot;: &quot;F&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.9.0.call.0.7.0.call.0.18">00:26:32.402 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTUyMzgyLCJleHAiOjE3NTE5NzAzODJ9.jRFHKNfiatRelaz24PL-a8g8ccV_YNerDFMX_qLWJEs 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call.0.7.0.call">
+    <div class="step-container" id="4.9.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">5</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.9.0.call.0.7.0.call.0.19">00:26:32.408 [print] PP 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call">
+    <div class="step-container" id="4.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call">
+    <div class="step-container" id="4.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="4.9.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call">
+    <div class="step-container" id="4.9.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">428</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.9.0.call.0.20">00:26:32.414 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 460
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Marisol Ceferina&quot;,
+  &quot;Apellidos&quot;: &quot;Godoy Villarubia&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTUyMzgyLCJleHAiOjE3NTE5NzAzODJ9.jRFHKNfiatRelaz24PL-a8g8ccV_YNerDFMX_qLWJEs&quot;,
+  &quot;Genero&quot;: &quot;F&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1p8FC3py693IjnMTa4uINq5lVSb9P3LBc&quot;,
+  &quot;Rol&quot;: &quot;PP&quot;
+}
+
+
+00:26:32.837 response time in milliseconds: 422
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Tue, 08 Jul 2025 05:26:23 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Marisol%20Ceferina; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Godoy%20Villarubia; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=PP; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTUyMzgyLCJleHAiOjE3NTE5NzAzODJ9.jRFHKNfiatRelaz24PL-a8g8ccV_YNerDFMX_qLWJEs; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=F; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1p8FC3py693IjnMTa4uINq5lVSb9P3LBc; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::bdvft-1751952383202-706875a40488
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.9.0.call">
+    <div class="step-container" id="4.9.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def fechaHoraEsperadaISO = getAdjustedTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/asistencia-hoy/marcar&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="4.12">{
+    &quot;ModoRegistro&quot;: &quot;E&quot;,
+    &quot;FechaHoraEsperadaISO&quot;: &quot;#(fechaHoraEsperadaISO)&quot;,
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">629</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.19">00:26:32.845 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/asistencia-hoy/marcar
+1 &gt; Cookie: Apellidos=Godoy%20Villarubia; Google_Drive_Foto_ID=1p8FC3py693IjnMTa4uINq5lVSb9P3LBc; Nombres=Marisol%20Ceferina; Genero=F; Rol=PP; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTUyMzgyLCJleHAiOjE3NTE5NzAzODJ9.jRFHKNfiatRelaz24PL-a8g8ccV_YNerDFMX_qLWJEs
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;ModoRegistro&quot;: &quot;E&quot;,
+  &quot;FechaHoraEsperadaISO&quot;: &quot;2025-07-08T04:26:32.841Z&quot;
+}
+
+
+00:26:33.469 response time in milliseconds: 623
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Type: application/json
+1 &lt; Date: Tue, 08 Jul 2025 05:26:23 GMT
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/asistencia-hoy/marcar
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::2cxpp-1751952383638-df9017187eb7
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;La asistencia ya había sido registrada anteriormente&quot;,
+  &quot;data&quot;: {
+    &quot;timestamp&quot;: 1751952383762,
+    &quot;desfaseSegundos&quot;: 3590,
+    &quot;esNuevoRegistro&quot;: false,
+    &quot;esRegistroPropio&quot;: false,
+    &quot;actorRegistrado&quot;: &quot;PP&quot;,
+    &quot;tipoAsistencia&quot;: &quot;personal&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:27]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">ASISTENCIAPROPIA</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:27]</span>
+                <span class="scenario-name">Marcar mi asistencia propia con el rol de PersonalAdmin</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1626</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1.5:27]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1.5:27]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.8">
+      <div class="step-ref passed">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;classpath:resources/features/login/PersonalAdmin.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.9">
+      <div class="step-ref passed">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>call read(&#39;classpath:resources/features/SetCookies/GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1031</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="5.9.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1014</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call">
+    <div class="step-container" id="5.9.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call">
+    <div class="step-container" id="5.9.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">575</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="5.9.0.call">
+      <div class="step-container" id="5.9.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.login.PersonalAdmin</div>
+      </div>
+      <div class="time-cell passed">550</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/personal-administrativo&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;jose_centeno_4180&quot;, &quot;Contraseña&quot;: &quot;41809910&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">543</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.9.0.call.0.7.0.call.0.10">00:26:33.534 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/personal-administrativo
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 63
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;jose_centeno_4180&quot;,
+  &quot;Contraseña&quot;: &quot;41809910&quot;
+}
+
+
+00:26:34.072 response time in milliseconds: 535
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 505
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Tue, 08 Jul 2025 05:26:24 GMT
+1 &lt; Etag: W/&quot;1f9-k/CMBJpMHVK/PGiIGyDcGXnQRk8&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::zjqsx-1751952384323-bc96b68865bb
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Centeno Diaz&quot;,
+    &quot;Nombres&quot;: &quot;Jose&quot;,
+    &quot;Rol&quot;: &quot;PA&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5NTIzODQsImV4cCI6MTc1MTk3MDM4NH0.TXYfKKu2y_9bvo5SC_kE20jvlDBQZdrf-vH_fHgpTqs&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1Jv0B596JMyZMRO7MFcdXW0nN8AI7hFIe&quot;,
+    &quot;Genero&quot;: &quot;M&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.9.0.call.0.7.0.call.0.18">00:26:34.077 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5NTIzODQsImV4cCI6MTc1MTk3MDM4NH0.TXYfKKu2y_9bvo5SC_kE20jvlDBQZdrf-vH_fHgpTqs 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call.0.7.0.call">
+    <div class="step-container" id="5.9.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.9.0.call.0.7.0.call.0.19">00:26:34.079 [print] PA 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call">
+    <div class="step-container" id="5.9.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call">
+    <div class="step-container" id="5.9.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="5.9.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call">
+    <div class="step-container" id="5.9.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">436</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.9.0.call.0.20">00:26:34.085 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 443
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Jose&quot;,
+  &quot;Apellidos&quot;: &quot;Centeno Diaz&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5NTIzODQsImV4cCI6MTc1MTk3MDM4NH0.TXYfKKu2y_9bvo5SC_kE20jvlDBQZdrf-vH_fHgpTqs&quot;,
+  &quot;Genero&quot;: &quot;M&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1Jv0B596JMyZMRO7MFcdXW0nN8AI7hFIe&quot;,
+  &quot;Rol&quot;: &quot;PA&quot;
+}
+
+
+00:26:34.517 response time in milliseconds: 430
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Tue, 08 Jul 2025 05:26:24 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Jose; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Centeno%20Diaz; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=PA; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5NTIzODQsImV4cCI6MTc1MTk3MDM4NH0.TXYfKKu2y_9bvo5SC_kE20jvlDBQZdrf-vH_fHgpTqs; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=M; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1Jv0B596JMyZMRO7MFcdXW0nN8AI7hFIe; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::zh6qw-1751952384883-471d089d1794
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.9.0.call">
+    <div class="step-container" id="5.9.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def fechaHoraEsperadaISO = getAdjustedTime()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.11">
+      <div class="step-ref passed">11</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/asistencia-hoy/marcar&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="5.12">{
+    &quot;ModoRegistro&quot;: &quot;E&quot;,
+    &quot;FechaHoraEsperadaISO&quot;: &quot;#(fechaHoraEsperadaISO)&quot;,
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.19">
+      <div class="step-ref passed">19</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">591</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.19">00:26:34.523 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/asistencia-hoy/marcar
+1 &gt; Cookie: Apellidos=Centeno%20Diaz; Google_Drive_Foto_ID=1Jv0B596JMyZMRO7MFcdXW0nN8AI7hFIe; Nombres=Jose; Genero=M; Rol=PA; token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5NTIzODQsImV4cCI6MTc1MTk3MDM4NH0.TXYfKKu2y_9bvo5SC_kE20jvlDBQZdrf-vH_fHgpTqs
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 70
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;ModoRegistro&quot;: &quot;E&quot;,
+  &quot;FechaHoraEsperadaISO&quot;: &quot;2025-07-08T04:26:34.520Z&quot;
+}
+
+
+00:26:35.112 response time in milliseconds: 587
+1 &lt; 200
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Type: application/json
+1 &lt; Date: Tue, 08 Jul 2025 05:26:25 GMT
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/asistencia-hoy/marcar
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::n7llb-1751952385310-3a96961e5df5
+1 &lt; Transfer-Encoding: chunked
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;La asistencia ya había sido registrada anteriormente&quot;,
+  &quot;data&quot;: {
+    &quot;timestamp&quot;: 1751952385430,
+    &quot;desfaseSegundos&quot;: 3590,
+    &quot;esNuevoRegistro&quot;: false,
+    &quot;esRegistroPropio&quot;: false,
+    &quot;actorRegistrado&quot;: &quot;PA&quot;,
+    &quot;tipoAsistencia&quot;: &quot;personal&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

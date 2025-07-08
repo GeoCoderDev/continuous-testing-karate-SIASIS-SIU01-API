@@ -1,0 +1,4077 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <script type="text/javascript" src="res/Resemble.js"></script>
+    <script>
+!function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
+  api_host:'https://app.posthog.com',
+  persistence:'localStorage',
+  autocapture:false,
+  capture_pageview:false,
+  api_transport:'sendBeacon',
+  loaded: function(posthog) { 
+    posthog.capture("report_feature",{distinct_id:"b52efb0a-d05b-41d4-947f-03aa6aafcead",karate_version:"1.4.1",karate_meta:null});
+  }
+});
+</script>
+
+    <title>resources.features.SetCookies.SetCookies</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        
+        <div>
+  <div class="nav-logo">
+    <a href="https://karatelabs.io">
+      <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">5</div>
+    </div>
+  </div>
+  <div id="nav-env">
+    <div>desa</div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>
+  <div id="nav-date">
+    <div>2025-07-07 12:52:13 p. m.</div>
+  </div>
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item failed">
+            <a href="#[1.1:10]"><span>[1.1:10]</span> <span>Set Cookies para Directivo</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.2:11]"><span>[1.2:11]</span> <span>Set Cookies para Auxiliar</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.3:12]"><span>[1.3:12]</span> <span>Set Cookies para TutorSecundaria</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.4:13]"><span>[1.4:13]</span> <span>Set Cookies para ProfesorPrimaria</span></a>
+          </div>
+          <div class="nav-item failed">
+            <a href="#[1.5:14]"><span>[1.5:14]</span> <span>Set Cookies para PersonalAdmin</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">resources/features/SetCookies/SetCookies.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Set Cookies con diferentes usuarios</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.1:10]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">SETCOOKIES</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.1:10]</span>
+                <span class="scenario-name">Set Cookies para Directivo</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>2481</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;../login/Directivo.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="1.6">
+      <div class="step-ref failed">6</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>call read(&#39;GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2480</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6">12:52:08.405 classpath:resources/features/SetCookies/SetCookies.feature:6
+* call read(&#39;GenericSetCookies.feature&#39;)
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+classpath:resources/features/SetCookies/SetCookies.feature:6
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="1.6.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">2454</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1935</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="1.6.0.call">
+      <div class="step-container" id="1.6.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.login.Directivo</div>
+      </div>
+      <div class="time-cell passed">1904</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/directivo&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;director.asuncion8&quot;, &quot;Contraseña&quot;: &quot;15430124&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">53</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1838</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6.0.call.0.7.0.call.0.10">12:52:06.391 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/directivo
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 64
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;director.asuncion8&quot;,
+  &quot;Contraseña&quot;: &quot;15430124&quot;
+}
+
+
+12:52:07.871 response time in milliseconds: 1476
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 509
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 07 Jul 2025 17:51:58 GMT
+1 &lt; Etag: W/&quot;1fd-OT97h2ZrPGEDjdhliS2n+7Hhj1k&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::lklvj-1751910717867-14cb245c6e19
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Cullanco Espilco&quot;,
+    &quot;Nombres&quot;: &quot;Elena Serafina&quot;,
+    &quot;Rol&quot;: &quot;D&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMzIiwiUm9sIjoiRCIsImlhdCI6MTc1MTkxMDcxOCwiZXhwIjoxNzUxOTI4NzE4fQ._2-Qjj-l49hu7rVPLBBUgqc1nVYTjelKiMkpXuNqyF4&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu&quot;,
+    &quot;Genero&quot;: &quot;F&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6.0.call.0.7.0.call.0.18">12:52:07.881 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMzIiwiUm9sIjoiRCIsImlhdCI6MTc1MTkxMDcxOCwiZXhwIjoxNzUxOTI4NzE4fQ._2-Qjj-l49hu7rVPLBBUgqc1nVYTjelKiMkpXuNqyF4 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call.0.7.0.call">
+    <div class="step-container" id="1.6.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6.0.call.0.7.0.call.0.19">12:52:07.883 [print] D 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="1.6.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">494</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6.0.call.0.20">12:52:07.888 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 447
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Elena Serafina&quot;,
+  &quot;Apellidos&quot;: &quot;Cullanco Espilco&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMzIiwiUm9sIjoiRCIsImlhdCI6MTc1MTkxMDcxOCwiZXhwIjoxNzUxOTI4NzE4fQ._2-Qjj-l49hu7rVPLBBUgqc1nVYTjelKiMkpXuNqyF4&quot;,
+  &quot;Genero&quot;: &quot;F&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu&quot;,
+  &quot;Rol&quot;: &quot;D&quot;
+}
+
+
+12:52:08.379 response time in milliseconds: 486
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Mon, 07 Jul 2025 17:51:59 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Elena%20Serafina; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Cullanco%20Espilco; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=D; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMSIsIk5vbWJyZV9Vc3VhcmlvIjoiZGlyZWN0b3IuYXN1bmNpb244IiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMzIiwiUm9sIjoiRCIsImlhdCI6MTc1MTkxMDcxOCwiZXhwIjoxNzUxOTI4NzE4fQ._2-Qjj-l49hu7rVPLBBUgqc1nVYTjelKiMkpXuNqyF4; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=F; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1pMkv-ba_T2mBKxjp_zBTZtgWEjwxPxdu; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::s7x9b-1751910719319-f972fd6fb35f
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="1.6.0.call">
+    <div class="step-container" id="1.6.0.call.0.22">
+      <div class="step-ref failed">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>print header Cookie</span>
+      </div>
+    </div>
+    <div class="time-cell failed">19</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="1.6.0.call.0.22">12:52:08.402 classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+* print header Cookie
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.2:11]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">SETCOOKIES</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.2:11]</span>
+                <span class="scenario-name">Set Cookies para Auxiliar</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1601</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;../login/CasoNoTutor.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="2.6">
+      <div class="step-ref failed">6</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>call read(&#39;GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1600</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6">12:52:10.015 classpath:resources/features/SetCookies/SetCookies.feature:6
+* call read(&#39;GenericSetCookies.feature&#39;)
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+classpath:resources/features/SetCookies/SetCookies.feature:6
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="2.6.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1592</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1120</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="2.6.0.call">
+      <div class="step-container" id="2.6.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.login.CasoNoTutor</div>
+      </div>
+      <div class="time-cell passed">1114</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/profesor-tutor-secundaria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;david_apolinario_1537&quot;, &quot;Contraseña&quot;: &quot;15371028&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1108</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6.0.call.0.7.0.call.0.10">12:52:08.428 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/profesor-tutor-secundaria
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 67
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;david_apolinario_1537&quot;,
+  &quot;Contraseña&quot;: &quot;15371028&quot;
+}
+
+
+12:52:09.532 response time in milliseconds: 1103
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 523
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 07 Jul 2025 17:52:00 GMT
+1 &lt; Etag: W/&quot;20b-FDS9DuhMDrc+NyJiUgnhR2HWs9w&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::fh7fx-1751910719837-73217d4382cc
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Apolinario Quispe&quot;,
+    &quot;Nombres&quot;: &quot;David Julian&quot;,
+    &quot;Rol&quot;: &quot;PS&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMSIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMiIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTEwNzIwLCJleHAiOjE3NTE5Mjg3MjB9.fueOGiCLgED01kjQUlP_W3V5ZoEJClt-mgVhvAuhns8&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg&quot;,
+    &quot;Genero&quot;: &quot;M&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6.0.call.0.7.0.call.0.18">12:52:09.537 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMSIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMiIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTEwNzIwLCJleHAiOjE3NTE5Mjg3MjB9.fueOGiCLgED01kjQUlP_W3V5ZoEJClt-mgVhvAuhns8 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call.0.7.0.call">
+    <div class="step-container" id="2.6.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6.0.call.0.7.0.call.0.19">12:52:09.537 [print] PS 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="2.6.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">468</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6.0.call.0.20">12:52:09.537 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 461
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;David Julian&quot;,
+  &quot;Apellidos&quot;: &quot;Apolinario Quispe&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMSIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMiIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTEwNzIwLCJleHAiOjE3NTE5Mjg3MjB9.fueOGiCLgED01kjQUlP_W3V5ZoEJClt-mgVhvAuhns8&quot;,
+  &quot;Genero&quot;: &quot;M&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg&quot;,
+  &quot;Rol&quot;: &quot;PS&quot;
+}
+
+
+12:52:09.989 response time in milliseconds: 452
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Mon, 07 Jul 2025 17:52:01 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=David%20Julian; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Apolinario%20Quispe; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=PS; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzEwMjgiLCJOb21icmVfVXN1YXJpbyI6ImRhdmlkX2Fwb2xpbmFyaW9fMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMSIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMiIsIlJvbCI6IlBTIiwiaWF0IjoxNzUxOTEwNzIwLCJleHAiOjE3NTE5Mjg3MjB9.fueOGiCLgED01kjQUlP_W3V5ZoEJClt-mgVhvAuhns8; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=M; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1Kvyn3lWOxzuURkPFBSGCPHmTshBUXAZg; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::s7x9b-1751910720954-c3ce5b8aa4f1
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="2.6.0.call">
+    <div class="step-container" id="2.6.0.call.0.22">
+      <div class="step-ref failed">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>print header Cookie</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="2.6.0.call.0.22">12:52:10.014 classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+* print header Cookie
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.3:12]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">SETCOOKIES</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.3:12]</span>
+                <span class="scenario-name">Set Cookies para TutorSecundaria</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1159</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;../login/CasoTutorSecundaria.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="3.6">
+      <div class="step-ref failed">6</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>call read(&#39;GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1159</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6">12:52:11.179 classpath:resources/features/SetCookies/SetCookies.feature:6
+* call read(&#39;GenericSetCookies.feature&#39;)
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+classpath:resources/features/SetCookies/SetCookies.feature:6
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="3.6.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1153</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">694</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="3.6.0.call">
+      <div class="step-container" id="3.6.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.login.CasoTutorSecundaria</div>
+      </div>
+      <div class="time-cell passed">687</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/profesor-tutor-secundaria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;daniel_sanchez_1542&quot;, &quot;Contraseña&quot;: &quot;15420745&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">684</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6.0.call.0.7.0.call.0.10">12:52:10.034 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/profesor-tutor-secundaria
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 65
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;daniel_sanchez_1542&quot;,
+  &quot;Contraseña&quot;: &quot;15420745&quot;
+}
+
+
+12:52:10.716 response time in milliseconds: 680
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 519
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 07 Jul 2025 17:52:01 GMT
+1 &lt; Etag: W/&quot;207-/M4fS1zMslQS90Vz7/otDmBbv/0&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::pdcq8-1751910721442-cee21ff5994d
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Sanchez Gonzales&quot;,
+    &quot;Nombres&quot;: &quot;Daniel Enrique&quot;,
+    &quot;Rol&quot;: &quot;T&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzEiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzQiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTEwNzIxLCJleHAiOjE3NTE5Mjg3MjF9.OE2huK6T4jMF40ZAbPhyz3JT26leDJSIf58dUu-0iRg&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b&quot;,
+    &quot;Genero&quot;: &quot;M&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6.0.call.0.7.0.call.0.18">12:52:10.719 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzEiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzQiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTEwNzIxLCJleHAiOjE3NTE5Mjg3MjF9.OE2huK6T4jMF40ZAbPhyz3JT26leDJSIf58dUu-0iRg 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call.0.7.0.call">
+    <div class="step-container" id="3.6.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6.0.call.0.7.0.call.0.19">12:52:10.719 [print] T 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="3.6.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">455</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6.0.call.0.20">12:52:10.723 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 457
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Daniel Enrique&quot;,
+  &quot;Apellidos&quot;: &quot;Sanchez Gonzales&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzEiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzQiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTEwNzIxLCJleHAiOjE3NTE5Mjg3MjF9.OE2huK6T4jMF40ZAbPhyz3JT26leDJSIf58dUu-0iRg&quot;,
+  &quot;Genero&quot;: &quot;M&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b&quot;,
+  &quot;Rol&quot;: &quot;T&quot;
+}
+
+
+12:52:11.173 response time in milliseconds: 438
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Mon, 07 Jul 2025 17:52:02 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Daniel%20Enrique; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Sanchez%20Gonzales; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=T; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTU0MjA3NDUiLCJOb21icmVfVXN1YXJpbyI6ImRhbmllbF9zYW5jaGV6XzE1NDIiLCJSRFAwMl9JTlNUQU5DRSI6IlJEUDAyX0lOUzEiLCJSRFAwM19JTlNUQU5DRSI6IlJEUDAzX0lOUzQiLCJSb2wiOiJUIiwiaWF0IjoxNzUxOTEwNzIxLCJleHAiOjE3NTE5Mjg3MjF9.OE2huK6T4jMF40ZAbPhyz3JT26leDJSIf58dUu-0iRg; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=M; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=14aAaksU7TNE6kOiFsRt4m5y2LSvnat1b; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::jd9fs-1751910722131-690f4c8a2c25
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="3.6.0.call">
+    <div class="step-container" id="3.6.0.call.0.22">
+      <div class="step-ref failed">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>print header Cookie</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="3.6.0.call.0.22">12:52:11.179 classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+* print header Cookie
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.4:13]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">SETCOOKIES</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.4:13]</span>
+                <span class="scenario-name">Set Cookies para ProfesorPrimaria</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1003</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;../login/ProfesorPrimaria.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="4.6">
+      <div class="step-ref failed">6</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>call read(&#39;GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1003</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.6">12:52:12.189 classpath:resources/features/SetCookies/SetCookies.feature:6
+* call read(&#39;GenericSetCookies.feature&#39;)
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+classpath:resources/features/SetCookies/SetCookies.feature:6
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="4.6.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">998</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">549</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="4.6.0.call">
+      <div class="step-container" id="4.6.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.login.ProfesorPrimaria</div>
+      </div>
+      <div class="time-cell passed">545</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/profesor-primaria&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;marisol_godoy_1537&quot;, &quot;Contraseña&quot;: &quot;15378317&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">543</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.6.0.call.0.7.0.call.0.10">12:52:11.195 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/profesor-primaria
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 64
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;marisol_godoy_1537&quot;,
+  &quot;Contraseña&quot;: &quot;15378317&quot;
+}
+
+
+12:52:11.738 response time in milliseconds: 542
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 522
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 07 Jul 2025 17:52:02 GMT
+1 &lt; Etag: W/&quot;20a-w1iQw6EE5/9mUkFym81QJqDDhlk&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::d8ckz-1751910722601-40c27e0c153a
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Godoy Villarubia&quot;,
+    &quot;Nombres&quot;: &quot;Marisol Ceferina&quot;,
+    &quot;Rol&quot;: &quot;PP&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTEwNzIyLCJleHAiOjE3NTE5Mjg3MjJ9.RJ4UWprbt78qVHLJ9fCwU98WFE5iaWe4d3opuwco3mM&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1p8FC3py693IjnMTa4uINq5lVSb9P3LBc&quot;,
+    &quot;Genero&quot;: &quot;F&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.6.0.call.0.7.0.call.0.18">12:52:11.739 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTEwNzIyLCJleHAiOjE3NTE5Mjg3MjJ9.RJ4UWprbt78qVHLJ9fCwU98WFE5iaWe4d3opuwco3mM 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call.0.7.0.call">
+    <div class="step-container" id="4.6.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.6.0.call.0.7.0.call.0.19">12:52:11.740 [print] PP 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="4.6.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">442</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.6.0.call.0.20">12:52:11.741 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 460
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Marisol Ceferina&quot;,
+  &quot;Apellidos&quot;: &quot;Godoy Villarubia&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTEwNzIyLCJleHAiOjE3NTE5Mjg3MjJ9.RJ4UWprbt78qVHLJ9fCwU98WFE5iaWe4d3opuwco3mM&quot;,
+  &quot;Genero&quot;: &quot;F&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1p8FC3py693IjnMTa4uINq5lVSb9P3LBc&quot;,
+  &quot;Rol&quot;: &quot;PP&quot;
+}
+
+
+12:52:12.181 response time in milliseconds: 436
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Mon, 07 Jul 2025 17:52:03 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Marisol%20Ceferina; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Godoy%20Villarubia; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=PP; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiMTUzNzgzMTciLCJOb21icmVfVXN1YXJpbyI6Im1hcmlzb2xfZ29kb3lfMTUzNyIsIlJEUDAyX0lOU1RBTkNFIjoiUkRQMDJfSU5TMyIsIlJEUDAzX0lOU1RBTkNFIjoiUkRQMDNfSU5TMyIsIlJvbCI6IlBQIiwiaWF0IjoxNzUxOTEwNzIyLCJleHAiOjE3NTE5Mjg3MjJ9.RJ4UWprbt78qVHLJ9fCwU98WFE5iaWe4d3opuwco3mM; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=F; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1p8FC3py693IjnMTa4uINq5lVSb9P3LBc; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::wcnz6-1751910723149-514fbefbcc16
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="4.6.0.call">
+    <div class="step-container" id="4.6.0.call.0.22">
+      <div class="step-ref failed">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>print header Cookie</span>
+      </div>
+    </div>
+    <div class="time-cell failed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="4.6.0.call.0.22">12:52:12.189 classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+* print header Cookie
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1.5:14]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">SETCOOKIES</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1.5:14]</span>
+                <span class="scenario-name">Set Cookies para PersonalAdmin</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>1068</span>
+            </div>
+          </div>
+          
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.5">
+      <div class="step-ref passed">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginFeature = &#39;../login/PersonalAdmin.feature&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="5.6">
+      <div class="step-ref failed">6</div>
+      
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>call read(&#39;GenericSetCookies.feature&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell failed">1065</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.6">12:52:13.285 classpath:resources/features/SetCookies/SetCookies.feature:6
+* call read(&#39;GenericSetCookies.feature&#39;)
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+classpath:resources/features/SetCookies/SetCookies.feature:6
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="5.6.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.GenericSetCookies</div>
+      </div>
+      <div class="time-cell passed">1049</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.4">
+      <div class="step-ref passed">4</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseCookie</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.7">
+      <div class="step-ref passed">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def loginResponse = call read(loginFeature)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">586</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row" data-parent="5.6.0.call">
+      <div class="step-container" id="5.6.0.call.0.7.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">resources.features.SetCookies.login.PersonalAdmin</div>
+      </div>
+      <div class="time-cell passed">572</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.5">
+      <div class="step-ref passed">5</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/login/personal-administrativo&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request { &quot;Nombre_Usuario&quot;: &quot;jose_centeno_4180&quot;, &quot;Contraseña&quot;: &quot;41809910&quot; }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">563</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.6.0.call.0.7.0.call.0.10">12:52:12.255 request:
+1 &gt; POST https://api01-siasis-dev.vercel.app/api/login/personal-administrativo
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 63
+1 &gt; Host: api01-siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombre_Usuario&quot;: &quot;jose_centeno_4180&quot;,
+  &quot;Contraseña&quot;: &quot;41809910&quot;
+}
+
+
+12:52:12.809 response time in milliseconds: 550
+1 &lt; 200
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 505
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Date: Mon, 07 Jul 2025 17:52:03 GMT
+1 &lt; Etag: W/&quot;1f9-yTFFeRYpHFST6zhTBCojhlyAY98&quot;
+1 &lt; Server: Vercel
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; X-Powered-By: Express
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::lnxnv-1751910723661-5650e95e3d08
+{
+  &quot;success&quot;: true,
+  &quot;message&quot;: &quot;Inicio de sesión exitoso&quot;,
+  &quot;data&quot;: {
+    &quot;Apellidos&quot;: &quot;Centeno Diaz&quot;,
+    &quot;Nombres&quot;: &quot;Jose&quot;,
+    &quot;Rol&quot;: &quot;PA&quot;,
+    &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5MTA3MjMsImV4cCI6MTc1MTkyODcyM30.uTKZKGYheG_whjJqW4r3uq7hi2sLBUZFYaMPdt0zb6U&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;1sU6Vjh0xUDJ3oT2Za_t41Q1QqUte2bHy&quot;,
+    &quot;Genero&quot;: &quot;M&quot;
+  }
+}
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.11">
+      <div class="step-ref passed">11</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.12">
+      <div class="step-ref passed">12</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def token = response.data.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.13">
+      <div class="step-ref passed">13</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def rol = response.data.Rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.14">
+      <div class="step-ref passed">14</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def nombres = response.data.Nombres</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.15">
+      <div class="step-ref passed">15</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def apellidos = response.data.Apellidos</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.16">
+      <div class="step-ref passed">16</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def genero = response.data.Genero</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.17">
+      <div class="step-ref passed">17</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def googleDriveFotoId = response.data.Google_Drive_Foto_ID</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.18">
+      <div class="step-ref passed">18</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.6.0.call.0.7.0.call.0.18">12:52:12.817 [print] eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5MTA3MjMsImV4cCI6MTc1MTkyODcyM30.uTKZKGYheG_whjJqW4r3uq7hi2sLBUZFYaMPdt0zb6U 
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call.0.7.0.call">
+    <div class="step-container" id="5.6.0.call.0.7.0.call.0.19">
+      <div class="step-ref passed">19</div>
+      <div class="step-indent"></div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print rol</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.6.0.call.0.7.0.call.0.19">12:52:12.819 [print] PA 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.8">
+      <div class="step-ref passed">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;/api/auth/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.9">
+      <div class="step-ref passed">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  <div class="preformatted" data-parent="5.6.0.call.0.9">{
+    &quot;Nombres&quot;: &quot;#(loginResponse.nombres)&quot;,
+    &quot;Apellidos&quot;: &quot;#(loginResponse.apellidos)&quot;,
+    &quot;token&quot;: &quot;#(loginResponse.token)&quot;,
+    &quot;Genero&quot;: &quot;#(loginResponse.genero)&quot;,
+    &quot;Google_Drive_Foto_ID&quot;: &quot;#(loginResponse.googleDriveFotoId)&quot;,
+    &quot;Rol&quot;: &quot;#(loginResponse.rol)&quot;
+}</div>
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.20">
+      <div class="step-ref passed">20</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">460</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.6.0.call.0.20">12:52:12.823 request:
+1 &gt; POST https://siasis-dev.vercel.app/api/auth/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 443
+1 &gt; Host: siasis-dev.vercel.app
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 &gt; Accept-Encoding: gzip,deflate
+{
+  &quot;Nombres&quot;: &quot;Jose&quot;,
+  &quot;Apellidos&quot;: &quot;Centeno Diaz&quot;,
+  &quot;token&quot;: &quot;eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5MTA3MjMsImV4cCI6MTc1MTkyODcyM30.uTKZKGYheG_whjJqW4r3uq7hi2sLBUZFYaMPdt0zb6U&quot;,
+  &quot;Genero&quot;: &quot;M&quot;,
+  &quot;Google_Drive_Foto_ID&quot;: &quot;1sU6Vjh0xUDJ3oT2Za_t41Q1QqUte2bHy&quot;,
+  &quot;Rol&quot;: &quot;PA&quot;
+}
+
+
+12:52:13.279 response time in milliseconds: 453
+1 &lt; 201
+1 &lt; Cache-Control: public, max-age=0, must-revalidate
+1 &lt; Content-Length: 0
+1 &lt; Date: Mon, 07 Jul 2025 17:52:04 GMT
+1 &lt; Server: Vercel
+1 &lt; Set-Cookie: Nombres=Jose; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Apellidos=Centeno%20Diaz; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Rol=PA; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJRF9Vc3VhcmlvIjoiNDE4MDk5MTAiLCJOb21icmVfVXN1YXJpbyI6Impvc2VfY2VudGVub180MTgwIiwiUkRQMDJfSU5TVEFOQ0UiOiJSRFAwMl9JTlMyIiwiUkRQMDNfSU5TVEFOQ0UiOiJSRFAwM19JTlMxIiwiUm9sIjoiUEEiLCJpYXQiOjE3NTE5MTA3MjMsImV4cCI6MTc1MTkyODcyM30.uTKZKGYheG_whjJqW4r3uq7hi2sLBUZFYaMPdt0zb6U; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Genero=M; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Set-Cookie: Google_Drive_Foto_ID=1sU6Vjh0xUDJ3oT2Za_t41Q1QqUte2bHy; Max-Age=18000; Path=/; HttpOnly; Secure; SameSite=Lax
+1 &lt; Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+1 &lt; Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+1 &lt; X-Matched-Path: /api/auth/login
+1 &lt; X-Vercel-Cache: MISS
+1 &lt; X-Vercel-Id: gru1::iad1::cd9kk-1751910724242-2ebedb65bd51
+
+
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.21">
+      <div class="step-ref passed">21</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="5.6.0.call">
+    <div class="step-container" id="5.6.0.call.0.22">
+      <div class="step-ref failed">22</div>
+      <div class="step-indent"></div>
+      <div class="step-cell failed">
+        <span>*</span>&nbsp;<span>print header Cookie</span>
+      </div>
+    </div>
+    <div class="time-cell failed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="5.6.0.call.0.22">12:52:13.284 classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+* print header Cookie
+js failed:
+&gt;&gt;&gt;&gt;
+01: karate.log(&#39;[print]&#39;,header Cookie)
+&lt;&lt;&lt;&lt;
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:28 Expected , but found Cookie
+karate.log(&#39;[print]&#39;,header Cookie)
+                            ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.print(ScenarioEngine.java:250)
+- com.intuit.karate.ScenarioActions.print(ScenarioActions.java:297)
+- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+classpath:resources/features/SetCookies/GenericSetCookies.feature:22
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
